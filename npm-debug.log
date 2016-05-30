@@ -1,0 +1,90 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.0
+4 verbose readDependencies loading dependencies from /Users/admin/Downloads/skilltree-react-lab/lab09/package.json
+5 warn package.json lab09@1.0.0 No repository field.
+6 verbose install where, deps [ '/Users/admin/Downloads/skilltree-react-lab/lab09',
+6 verbose install   [ 'react',
+6 verbose install     'react-dom',
+6 verbose install     'react-redux',
+6 verbose install     'redux',
+6 verbose install     'babel-core',
+6 verbose install     'babel-loader',
+6 verbose install     'react-hot-loader',
+6 verbose install     'webpack',
+6 verbose install     'webpack-dev-server' ] ]
+7 verbose install where, peers [ '/Users/admin/Downloads/skilltree-react-lab/lab09', [] ]
+8 verbose installManyTop reading for lifecycle /Users/admin/Downloads/skilltree-react-lab/lab09/package.json
+9 info preinstall lab09@1.0.0
+10 verbose installManyTop reading scoped package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/babel-core/package.json
+11 verbose installManyTop reading scoped package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/babel-loader/package.json
+12 verbose installManyTop reading scoped package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/react/package.json
+13 verbose installManyTop reading scoped package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/react-dom/package.json
+14 verbose installManyTop reading scoped package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/react-hot-loader/package.json
+15 verbose installManyTop reading scoped package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/react-redux/package.json
+16 verbose installManyTop reading scoped package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/redux/package.json
+17 verbose installManyTop reading scoped package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/webpack/package.json
+18 verbose installManyTop reading scoped package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/webpack-dev-server/package.json
+19 verbose readDependencies loading dependencies from /Users/admin/Downloads/skilltree-react-lab/lab09/package.json
+20 verbose targetResolver reading package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/babel-core/package.json
+21 verbose targetResolver reading package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/babel-loader/package.json
+22 verbose targetResolver reading package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/react/package.json
+23 verbose targetResolver reading package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/react-dom/package.json
+24 verbose targetResolver reading package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/react-hot-loader/package.json
+25 verbose targetResolver reading package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/react-redux/package.json
+26 verbose targetResolver reading package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/redux/package.json
+27 verbose targetResolver reading package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/webpack/package.json
+28 verbose targetResolver reading package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/webpack-dev-server/package.json
+29 verbose targetResolver reading package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/.bin/webpack/package.json
+30 verbose targetResolver reading package data from /Users/admin/Downloads/skilltree-react-lab/lab09/node_modules/.bin/webpack-dev-server/package.json
+31 verbose already installed skipping babel-loader@^6.2.4 /Users/admin/Downloads/skilltree-react-lab/lab09
+32 verbose already installed skipping react-hot-loader@^1.3.0 /Users/admin/Downloads/skilltree-react-lab/lab09
+33 verbose already installed skipping webpack@^1.13.0 /Users/admin/Downloads/skilltree-react-lab/lab09
+34 verbose already installed skipping webpack-dev-server@^1.14.1 /Users/admin/Downloads/skilltree-react-lab/lab09
+35 verbose already installed skipping react@^15.0.2 /Users/admin/Downloads/skilltree-react-lab/lab09
+36 verbose already installed skipping react-dom@^15.0.2 /Users/admin/Downloads/skilltree-react-lab/lab09
+37 verbose already installed skipping react-redux@^4.4.5 /Users/admin/Downloads/skilltree-react-lab/lab09
+38 verbose already installed skipping redux@^3.5.2 /Users/admin/Downloads/skilltree-react-lab/lab09
+39 verbose already installed skipping babel-core@^5.8.23 /Users/admin/Downloads/skilltree-react-lab/lab09
+40 silly install resolved []
+41 info build /Users/admin/Downloads/skilltree-react-lab/lab09
+42 info linkStuff lab09@1.0.0
+43 silly linkStuff lab09@1.0.0 has /Users/admin/Downloads/skilltree-react-lab as its parent node_modules
+44 verbose linkBins lab09@1.0.0
+45 verbose linkMans lab09@1.0.0
+46 verbose rebuildBundles lab09@1.0.0
+47 verbose rebuildBundles [ '.bin',
+47 verbose rebuildBundles   'babel-core',
+47 verbose rebuildBundles   'babel-loader',
+47 verbose rebuildBundles   'react',
+47 verbose rebuildBundles   'react-dom',
+47 verbose rebuildBundles   'react-hot-loader',
+47 verbose rebuildBundles   'react-redux',
+47 verbose rebuildBundles   'redux',
+47 verbose rebuildBundles   'webpack',
+47 verbose rebuildBundles   'webpack-dev-server' ]
+48 info install lab09@1.0.0
+49 info postinstall lab09@1.0.0
+50 info prepublish lab09@1.0.0
+51 verbose validateInstall loading /Users/admin/Downloads/skilltree-react-lab/lab09/package.json for validation
+52 verbose stack Error: The package babel-core@5.8.38 does not satisfy its siblings' peerDependencies requirements!
+52 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+52 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+52 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+52 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+52 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+52 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+52 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+52 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+52 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+52 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+53 verbose cwd /Users/admin/Downloads/skilltree-react-lab/lab09
+54 error Darwin 15.5.0
+55 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+56 error node v4.4.0
+57 error npm  v2.14.20
+58 error code EPEERINVALID
+59 error peerinvalid The package babel-core@5.8.38 does not satisfy its siblings' peerDependencies requirements!
+59 error peerinvalid Peer babel-loader@6.2.4 wants babel-core@^6.0.0
+60 verbose exit [ 1, true ]
